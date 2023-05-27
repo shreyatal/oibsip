@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color: rgb(77,139,200);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .container{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 10px; 
+ }
+ .container input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    background-color:rgb(203,229,254) ;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    border: rgb(203,229,254);
+    color: rgb(26,61,91);
+ }
+ .btn{
+    width:90px;
+    padding: 0px;
+    margin: 2px 30px 30px 2px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.2s;
+    background-color:rgb(203,229,254) ;
+    border-radius: 6px;
+    border: rgb(203,229,254);
+    color: rgb(41,74,105);
+ }
+ .btn:hover{
+    background-color: rgb(163,208,250);
+    color: white;
+ }
+ .btn1{
+    width:90px;
+    padding: 0px;
+    margin: 2px 30px 30px 2px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.2s;
+    background-color:rgb(163,208,250);
+    border-radius: 6px;
+    border: rgb(163,208,250);
+    color: rgb(87,142,199);
+ }
+ .btn2{
+    width:90px;
+    padding: 0px;
+    margin: 2px 30px 30px 2px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+    background-color:rgb(77,139,200) ;
+    border-radius: 6px;
+    border: rgb(77,139,200);
+    color: white;
+ }
